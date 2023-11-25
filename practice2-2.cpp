@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+using namespace std::literals::string_literals;
 std::string replaceString(std::string haystack,
                           std::string needle,
                           std::string replacement)
@@ -16,9 +17,9 @@ std::string replaceString(std::string haystack,
 
 int main()
 {
-    std::string haystack{"okokokokokokokok"};
-    std::string needle{"ok"};
-    std::string replacement{"yes"};
+    std::string haystack{"okokokokokokokok"s};
+    std::string needle{"ok"s};
+    std::string replacement{"no"s};
     std::cout << replaceString(haystack, needle, replacement);
     return 0;
 }
