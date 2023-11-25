@@ -8,7 +8,7 @@
                 // "-fcolor-diagnostics",
                 // "-fansi-escape-codes",
                 //"-g",
-                "-std=c++23",
+                "-std=c++2a",
                 "${file}",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
