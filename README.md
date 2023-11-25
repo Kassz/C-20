@@ -1,2 +1,2 @@
-# C-20
+# Cpp20
 C++20 practice
